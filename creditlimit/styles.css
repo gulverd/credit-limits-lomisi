@@ -1,0 +1,135 @@
+body{
+	font-family:Arial;
+}
+input {
+	font-family:Arial;
+	font-size:14px;
+}
+label{
+	font-family:Arial;
+	font-size:14px;
+	color:#999999;
+}
+@media (min-width: 768px){
+	.col-sm-5{
+		width: 100%;
+	}
+}
+#remove{
+	background-color: #d9534f;
+	color:white;
+	border-color: #d43f3a;
+}
+.col-sm-5{
+		width: 100%;
+}
+.btn-default .badge {
+	background-color: rgb(84, 84, 84);
+	font-size: 14pt;
+}
+label.valid {
+  width: 24px;
+  height: 24px;
+  background: url(img/valid.png) center center no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+}
+label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.tblSaveForm{
+	border-top:2px #999999 solid;
+	background-color: #f8f8f8;
+}
+.tableheader{
+	background-color: #fedc4d;
+}
+.tablerow{
+	background-color: #A7D6F1;
+	color:white;
+}
+.btnSubmit{
+	background-color:#fd9512;
+	padding:5px;
+	border-color:#FF6600;
+	border-radius:4px;
+	color:white;
+}
+.message{
+	color: #FF0000;
+	text-align: center;
+	width: 100%;
+}
+.txtField{
+	padding: 5px;
+	border:#fedc4d 1px solid;
+	border-radius:4px;
+}
+.evenRow{
+	background-color: #E2EDF9;
+	font-size:12px;
+	color:#101010;
+}
+.evenRow:hover{
+	background-color: #ddd;
+}
+.oddRow{
+	background-color: #B3E8FF;
+	font-size:12px;
+	color:#101010;
+}
+.oddRow:hover{
+	background-color: #ffef46;
+}
+.tblListForm{
+	border-top:2px #999999 solid;
+}
+.listheader{
+	background-color: #ddd;
+	font-size:12px;
+	font-weight:bold;
+	width: auto;
+}
+#header_wrapper{
+	background-color:rgb(17, 18, 17);
+	padding:15px;
+	color: white;
+}
+#input_wrapper{
+	margin-top: 20px;
+	padding-top: 5px;
+}
+#middle{
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#cont{
+	border:1px solid rgb(210, 210, 210);
+	border-radius:5px;
+	padding: 10px;
+}
+table{
+	border:2px solid rgb(210, 210, 210);
+}
+#creditLimitChangeHeader{
+	margin: 0px;
+	padding-left: 5px;
+	padding-top: 2px;
+	font-size: 12pt;
+	height: 30px;
+	vertical-align: middle;	
+	font-weight: 800;
+	border-top:1px solid rgb(210, 210, 210);
+	border-left:1px solid rgb(210, 210, 210);
+	border-right:1px solid rgb(210, 210, 210);
+	background-color: #0099FF;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.btn-block{
+	margin-top: 4px;
+}
